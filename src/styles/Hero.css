@@ -1,0 +1,23 @@
+.hero-bg{
+    background: no-repeat center/cover url("https://images.unsplash.com/photo-1609068972475-a23a5dfb2c07?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528");
+    color: white;
+    min-height: 600px;
+    font-weight: 900;
+    font-size: 30px;
+    align-items: flex-end;
+    padding-bottom: 50px ;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-bg div{
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+h1 span{
+    font-weight: 400;
+}
+@media (max-width:600px) {
+    .hero-bg{
+        font-size: 6.5vw;
+    }
+}

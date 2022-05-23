@@ -1,0 +1,16 @@
+.gridder {
+    width: 95%;
+    max-width: 1500px;
+    margin: 50px auto;
+    display: grid;
+    min-height: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 75px;
+}
+
+@media (max-width:900px) {
+    .gridder {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}

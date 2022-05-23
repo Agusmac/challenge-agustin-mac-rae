@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./styles/index.css"
+import "./styles/TrickDiv.css"
+import "./styles/Hero.css"
+import "./styles/Grid.css"
+import "./styles/Card.css"
+
+import Hero from './components/Hero';
+import Grid from './components/Grid';
+import TrickDiv from "./components/TrickDiv"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Grid />
+      <TrickDiv/>
     </div>
   );
 }
