@@ -12,6 +12,10 @@
 .bg-wine {
     background: no-repeat center/cover url('https://images.unsplash.com/photo-1422748733255-ee572fddeab0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880');
 }
+
+/*  i'm not sure if the text should be centered here on mobile/tablet,
+ it would look prettier but i'm sticking to the design  */
+
 .trickText{
     align-items: center;
     padding: 50px;
